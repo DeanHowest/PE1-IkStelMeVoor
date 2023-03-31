@@ -69,3 +69,24 @@ img{
 a{
     margin-left: 150px;
 }
+table.myTable {
+    margin-bottom: 50px;
+    margin-left: 460px;
+    border: solid 3px blue;
+    background-color: #11aeec;
+    width: 50%;
+    }
+    table.myTable > caption {
+    text-align: center;
+    font-style: italic;
+    font-variant: small-caps;
+    }
+td, th{
+    border: solid;
+}
+caption::before{
+    margin-bottom: 20px;
+    content: "Howest ";
+    font-weight: bold;
+
+}
